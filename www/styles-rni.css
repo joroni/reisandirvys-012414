@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Start with core styles outside of a media query that apply to mobile and up */
+/* Global typography and design elements, stacked containers */
+body { font-family: 'Open Sans', Helvetica, san-serif !important; }
+
+
+div[data-role="header"] {
+	max-height:50px !important;
+	min-height:40px !important;
+	background:#710067 !important;;
+	
+}
+
+div[data-role="footer"] {
+	display:none !important;
+	
+}
+	
+
+
+div[data-role="retail"] {
+	display:none !important;
+	
+}
+	
+.fa-2x {
+	
+	z-index:2000000;
+	    font-size: 2em;
+    margin-left: 18px;
+    margin-top: -38px;
+    position: absolute;
+}
+
+.sb-home {
+	background:url(images/icons-slic/icon-home.png)
+	};
+	
+.sb-info {
+	background:url(images/icons-slic/info-home.png)};
