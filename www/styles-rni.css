@@ -7,9 +7,11 @@ body { font-family: 'Open Sans', Helvetica, san-serif !important; }
 
 
 div[data-role="header"] {
-	max-height:50px !important;
-	min-height:40px !important;
-	background:#710067 !important;;
+	  background: none repeat scroll 0 0 #000000 !important;
+    border-bottom: 1px solid #FFFFFF;
+    max-height: 50px !important;
+    min-height: 40px !important;
+	/*background:#710067 !important;*/
 	
 }
 
@@ -35,8 +37,23 @@ div[data-role="retail"] {
 }
 
 .sb-home {
-	background:url(images/icons-slic/icon-home.png)
-	};
+    background: url("images/icons-slic/icon-home.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display:inline-block;
+    height: 50px;
+    width: 50px;
+}
 	
+.sb-user {
+	 background: url("images/icons-slic/icon-user.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+     display:inline-block;
+    height: 50px;
+    width: 50px;
+	}
+
+
 .sb-info {
-	background:url(images/icons-slic/info-home.png)};
+	 background: url("images/icons-slic/icon-info.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+     display:inline-block;
+    height: 50px;
+    width: 50px;
+	}

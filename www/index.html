@@ -49,21 +49,23 @@
 		</div>
 		<!--<h1>Loading</h1>-->
         <div class="btn-group fa-3x">
-  <a class="btn btn-default" href="#home" data-theme="b"<i class="fa fa-align-left"></i></a>
-  <a class="btn btn-default" href="#"><i class="fa fa-align-center"></i></a>
-  <a class="btn btn-default" href="#"><i class="fa fa-align-right data-icon=info"></i></a>
-  <a class="btn btn-default" href="#"><i class="fa fa-align-justify"></i></a>
+  <a class="btn btn-default" href="#home" data-theme="d"><i class="sb-home"></i></a>
+   <a class="btn btn-default" href="#user" data-theme="d"><i class="sb-user"></i></a>
+     <a class="btn btn-default" href="#polls" data-theme="d"><i class="sb-like"></i></a>
+   <a class="btn btn-default" href="#info" data-theme="d"><i class="sb-info"></i></a>
+ 
 </div>
 	</div>
 	<!-- /header -->
 	<div data-role="content">
 		<div class="ui-body ui-body-c">
-			<p>
-				<strong>Welcome to Reis &amp; Irvy's</strong>
-			</p>
-			<p>
-				 Loading
-			</p>
+			
+            <center>
+            <img src="images/logo.png">
+            </center>
+			<center>
+				<img src="images/my_story.png">
+			</center>
 		</div>
 	</div>
 	<!-- /content -->
@@ -121,12 +123,12 @@
 			<!--<a class="btn btn-default" href="#login"  id="footout" onMouseDown="Account();"><i class="fa fa-user fa-1x"></i></a>
                   <a class="btn btn-default" href="#info"><i class="fa fa-info fa-1x"></i></a>-->
 		</div>
-	</div>
+  </div>
 	<!-- /header -->
 	<div data-role="content">
 		<div class="ui-body ui-body-c">
 			<p>
-				<strong>Hi, </strong>
+				<strong>Hi! </strong>
 			</p>
 			<p>
 				 On this app, you may be able to...
@@ -135,7 +137,7 @@
 				<strong>Quick step guide to getting started</strong>
 			</p>
 			<p>
-				 1. Sign up.<br/>
+				1. Sign up.<br/>
 				2. Vote for our weekly FROYO combinations.<br/>
 				3. Share.<br/>
 				4. Suggest<br/>
@@ -180,10 +182,10 @@
 			<p>
 				 Password <input id="password" type="password">
 				</input>
-				<ul>
+		  <ul>
 					<li><a href="http://m.reisandirvys.com/user/register" target="_blank">Create an account</a></li>
 					<li><a href="http://m.reisandirvys.com/user/password" target="_blank">Request Password</a></li>
-				</ul>
+		  </ul>
 			</p>
 			<div id="logmsg">
 			</div>
@@ -204,14 +206,16 @@
 	<!-- /footer -->
 </div>
 <!-- /page -->
+
+
+
 <!-- Start of articles page -->
 <div data-role="page" id="stories">
 	<div data-role="header" data-id="bhead" data-theme="a">
 		<h1>Comments</h1>
 		<div class="btn-group fa-2x">
 			<a class="btn btn-default" href="#home" data-direction="reverse"><i class="fa fa-home fa-1x"></i></a>
-			<!--<a class="btn btn-default" href="#login"  id="footout" onMouseDown="Account();"><i class="fa fa-user fa-1x"></i></a>
-                  <a class="btn btn-default" href="#info"><i class="fa fa-info fa-1x"></i></a>-->
+			
 		</div>
 	</div>
 	<!-- /header -->
@@ -276,24 +280,19 @@
 			<p>
 				<center><img src="logo.png" width="200"></center>
 			</p>
-			 For more information go to <a href='http://www.reisandirvys.com'>reisandirvys.com</a>
+			 For more information go to <a href='http://www.reisandirvys.com'>www.reisandirvys.com</a>
 			<br/>
 		</p>
 	</div>
 </div>
 <!-- /content -->
 <div data-role="footer" data-position="fixed" data-id="bfoot" class="ui-bar" data-theme="a">
-	<div class="btn-group fa-2x">
-		<a class="btn btn-default" href="#login" id="footout" onmousedown="Account();"><i class="fa fa-user fa-1x"></i></a>
-		<a class="btn btn-default" href="#info"><i class="fa fa-info fa-1x"></i></a>
-	</div>
-	<!-- <a href="#settings" data-icon="gear" class="ui-btn-right">Settings</a>
-      <a id="footout" href="#login" data-role="button" data-icon="delete">Account</a>-->
-	<!--<a class="btn btn-default" href="#login"  id="footout" onMouseDown="Account();"><i class="fa fa-user fa-1x"></i></a>
-                  <a class="btn btn-default" href="#info"><i class="fa fa-info fa-1x"></i></a>-->
+  <div class="btn-group fa-2x"> <a class="btn btn-default" href="#login" id="footout2" onMouseDown="Account();"><i class="fa fa-user fa-1x"></i></a> <a class="btn btn-default" href="#info"><i class="fa fa-info fa-1x"></i></a> </div>
+  
 </div>
 <!-- /footer -->
 </div>
+
 <!-- /page -->
 <!-- Start of settings page -->
 <div data-role="page" id="settings">
@@ -322,53 +321,37 @@
 		<br/>
 		<a data-role="button" data-theme="a">Save settings</a>
 		<!-- onclick="saveSettings(); -->
-	</div>
-</div>
-<!-- /content -->
-</div>
-<!-- /page -->
-<!-- Start of sending page -->
-<div data-role="page" id="sending">
-<div data-role="header" data-id="bhead" data-theme="a">
-	
-    
-    <h1>Sending Story</h1>
-	<div class="btn-group fa-2x">
-		<a class="btn btn-default" href="#home" data-direction="reverse"><i class="fa fa-home fa-1x"></i></a>
-		<!--<a class="btn btn-default" href="#login"  id="footout" onMouseDown="Account();"><i class="fa fa-user fa-1x"></i></a>
+      <div data-role="page" id="sending">
+	      <div data-role="header" data-id="bhead" data-theme="a">
+	        <h1>Sending Story</h1>
+	        <div class="btn-group fa-2x"> <a class="btn btn-default" href="#home" data-direction="reverse"><i class="fa fa-home fa-1x"></i></a>
+	          <!--<a class="btn btn-default" href="#login"  id="footout" onMouseDown="Account();"><i class="fa fa-user fa-1x"></i></a>
                   <a class="btn btn-default" href="#info"><i class="fa fa-info fa-1x"></i></a>-->
-	</div>
-</div>
-<!-- /header -->
-<div data-role="content">
-	<div class="ui-body ui-body-c">
-		<div id="sentmessage">
-			<p>
-				 Your message is being sent.
-			</p>
-			<p>
-				If this message does not disappear in 2 minutes,
-			</p>
-			<p>
-				 please check your connection and try again.
-			</p>
-		</div>
-		<br/>
-		<div id="storylist">
-		</div>
+            </div>
+        </div>
+	      <!-- /header -->
+	      <div data-role="content">
+	        <div class="ui-body ui-body-c">
+	          <div id="sentmessage">
+	            <p> Your message is being sent. </p>
+	            <p> If this message does not disappear in 2 minutes, </p>
+	            <p> please check your connection and try again. </p>
+              </div>
+	          <br/>
+	          <div id="storylist"></div>
+            </div>
+        </div>
+	      <!-- /content -->
+	      <div data-role="footer" data-position="fixed" data-id="bfoot" class="ui-bar" data-theme="a">
+	        <div class="btn-group fa-2x"> <a class="btn btn-default" href="#login" id="footout3" onMouseDown="Account();"><i class="fa fa-user fa-1x"></i></a> <a class="btn btn-default" href="#info"><i class="fa fa-info fa-1x"></i></a> </div>
+        </div>
+	      <!-- /footer -->
+      </div>
 	</div>
 </div>
 <!-- /content -->
-<div data-role="footer" data-position="fixed" data-id="bfoot" class="ui-bar" data-theme="a">
-	<div class="btn-group fa-2x">
-		<a class="btn btn-default" href="#login" id="footout" onmousedown="Account();"><i class="fa fa-user fa-1x"></i></a>
-		<a class="btn btn-default" href="#info"><i class="fa fa-info fa-1x"></i></a>
-	</div>
-</div>
-<!-- /footer -->
-
-
 </div>
 <!-- /page -->
+<!-- Start of sending page --><!-- /page -->
 </body>
 </html>
