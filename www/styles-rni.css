@@ -27,14 +27,21 @@ div[data-role="retail"] {
 	
 }
 	
+
 .fa-2x {
-	
-	z-index:2000000;
-	    font-size: 2em;
-    margin-left: 18px;
-    margin-top: -38px;
+    font-size: 2em;
+    margin-right: 25px;
+    margin-top: 0;
     position: absolute;
+    z-index: 2000000;
 }
+
+div.btn-group a.btn {
+   padding: 0 10px;
+   color:#eee !important;
+   text-shadow:0 1px 0 #000 !important;
+}
+
 
 .sb-home {
     background: url("images/icons-slic/icon-home.png") repeat scroll 0 0 rgba(0, 0, 0, 0);

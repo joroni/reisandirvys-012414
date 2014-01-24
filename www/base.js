@@ -76,7 +76,7 @@ function loginout() {
 
 function listArticles() {
 	//url = baseurl + '/phonegap/display_view';
-	url = baseurl + '/phonegap/random_articles';
+	url = baseurl + '/phonegap/frontpage';
 	$username = '';
 	$("#latestlist").html("Retrieving Data...");
 	$.post(url, {
