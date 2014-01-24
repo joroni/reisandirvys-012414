@@ -7,7 +7,7 @@ body { font-family: 'Open Sans', Helvetica, san-serif !important; }
 
 
 div[data-role="header"] {
-	  background: none repeat scroll 0 0 #000000 !important;
+	 /* background: none repeat scroll 0 0 #000000 !important;*/
     border-bottom: 1px solid #FFFFFF;
     max-height: 50px !important;
     min-height: 40px !important;
@@ -26,7 +26,14 @@ div[data-role="retail"] {
 	display:none !important;
 	
 }
-	
+
+.ui-bar-a, .ui-bar-b, .ui-bar-c, .ui-bar-d, .ui-header {
+    background: url(images/header-tile.png) repeat-x !important;
+	/*background: linear-gradient(#F944AE, #EC068D) repeat scroll 0 0 #111111 !important;*/
+ /*   border-bottom: 1px solid #333333 !important;*/
+	 border-bottom: 1px solid #FFFFFF;
+   
+}
 
 .fa-2x {
     font-size: 2em;
