@@ -75,8 +75,8 @@ function loginout() {
 }
 
 function listArticles() {
-	//url = baseurl + '/phonegap/display_view';
-	url = baseurl + '/phonegap/frontpage';
+	url = baseurl + '/phonegap/display_view';
+	//url = baseurl + '/phonegap/frontpage';
 	$username = '';
 	$("#latestlist").html("Retrieving Data...");
 	$.post(url, {
@@ -93,24 +93,6 @@ function listArticles() {
 	$.mobile.changePage("#stories");
 }
 
-function myAccount() {
-	//url = baseurl + '/phonegap/display_view';
-	url = baseurl + '/phonegap/drupal_user_info';
-	$username = '';
-	$("#username").html("Retrieving Data...");
-	$.post(url, {
-		username : $username,
-		view : localStorage.view,
-		display : localStorage.display
-	}, function(data) {
-		if (data == '') {
-			data = "Connection Error"
-		};
-		$("#username").html(data);
-
-	});
-	$.mobile.changePage("#home");
-}
 
 
 function saveLogin() {
