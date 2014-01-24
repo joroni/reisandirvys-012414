@@ -1,5 +1,5 @@
 var baseurl = "http://www.m.reisandirvys.com";
-var nextpage = "#home";
+var nextpage = "#login";
 var view = "frontpage";
 var display = "polls";
 
@@ -46,7 +46,7 @@ function onDeviceReady() {
 		$("#footout").hide();
 	};
 
-	$.mobile.changePage("#login");
+	$.mobile.changePage("#home");
 
 }
 
@@ -104,7 +104,7 @@ function saveLogin() {
 		if (data.status == "ok") {
 			localStorage.localLogin = 3;
 			localStorage.hash = data.hash;
-			$.mobile.changePage(nextpage);
+			$.mobile.changePage("#home");
 		};
 	};
 	var saybi = function(data) {
@@ -114,7 +114,7 @@ function saveLogin() {
 		localStorage.phonegapName = username;
 		if (password) {
 			localStorage.phonegapPass = password;
-			$("#logmsg").html("setting locally saved for " + username + "trying to contact server ...");
+			$("#logmsg").html("Settings for " + username + "trying to contact server ...");
 			purl = baseurl + '/phonegap/login';
 			$.ajax({
 				type : 'POST',

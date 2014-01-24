@@ -14,7 +14,6 @@
     
 
 
-<title>Reis &amp; Irvys</title>
 
   <!-- CSS
   ================================================== -->
@@ -27,6 +26,7 @@
   
   
 
+
 <link rel="stylesheet" href="jquery.mobile-1.0b2.min.css"/>
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 <link href="font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -36,6 +36,7 @@
 <script type="text/javascript" src="jquery.mobile-1.0b2.min.js"></script>
 <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
 <script type="text/javascript" src="base.js"></script>
+<title>Reis &amp; Irvys</title>
 
 </head>
 <body onload="onBodyLoad()">
@@ -128,8 +129,7 @@
 	<div data-role="content">
 		<div class="ui-body ui-body-c">
 			<p>
-				<strong>Hi! </strong>
-			</p>
+			<strong>Hi!  </strong></p>
 			<p>
 				 On this app, you may be able to...
 			</p>
@@ -143,6 +143,7 @@
 				4. Suggest<br/>
 				5.Win a free FROYO treat!
 			</p>
+			<p>$username</p>
 		</div>
 	</div>
 	<!-- /content -->
@@ -219,7 +220,7 @@
 		</div>
 	</div>
 	<!-- /header -->
-	<div id "latestlist" t" data-role="content">
+	<div id "latestlist" data-role="content">
 	</div>
 	<!-- /content -->
 	<div data-role="footer" data-position="fixed" data-id="bfoot" class="ui-bar" data-theme="a">
@@ -233,6 +234,8 @@
 	<!-- /footer -->
 </div>
 <!-- /page -->
+
+
 <!-- Start of add Articles page -->
 <div data-role="page" id="addstory">
 	<div data-role="header" data-id="bhead" data-theme="a">
@@ -241,11 +244,11 @@
         <a href="#info" data-icon="info" class="ui-btn-right">Info</a>-->
 	</div>
 	<!-- /header -->
-	<div id "addstorydiv" v" data-role="content">
-		<div id "stitle" e" class="rounded left">
+	<div id="addstorydiv" data-role="content">
+		<div id="title" class="rounded left">
 			 Title
 		</div>
-		<input id "storytitle" e" type="text" class="textround" name="storytitle"/>
+		<input id "storytitle" type="text" class="textround" name="storytitle"/>
 		<br/>
 		<textarea id="story" class="arearound" style="overflow-y:scroll;" name="story" cols=45 rows=8></textarea>
 		<br/>
